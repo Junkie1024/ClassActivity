@@ -8,15 +8,15 @@
 
 
     <ImageView
-        android:id="@+id/pokemon-ball"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:id="@+id/pokemonball"
+        android:layout_width="310dp"
+        android:layout_height="293dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="93dp"
-        android:src="@drawable/pokemonball" />
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="55dp"
+        android:src="@drawable/poke1" />
 
     <ImageView
         android:id="@+id/pokemon"
@@ -25,8 +25,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="133dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="109dp"
         android:src="@drawable/pokmo" />
 
 

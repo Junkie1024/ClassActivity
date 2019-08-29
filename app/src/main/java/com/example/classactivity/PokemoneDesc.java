@@ -44,12 +44,12 @@ public class PokemoneDesc extends Fragment {
         txt_desc = view.findViewById(R.id.txt_desc);
 
         if(getArguments()!=null){
-            txt_name.setText(getArguments().getString("name"));
-            txt_ability.setText(getArguments().getString("ability"));
-            txt_h.setText(getArguments().getString("height"));
-            txt_w.setText(getArguments().getString("weight"));
-            txt_type.setText(getArguments().getString("type"));
-            txt_desc.setText(getArguments().getString("description"));
+            txt_name.setText("Name: "+getArguments().getString("name"));
+            txt_ability.setText("Ability: "+getArguments().getString("ability"));
+            txt_h.setText("Height: "+getArguments().getString("height"));
+            txt_w.setText("Weight: "+getArguments().getString("weight"));
+            txt_type.setText("Type: "+getArguments().getString("type"));
+            txt_desc.setText("Description: "+getArguments().getString("description"));
             Glide.with(getActivity().getApplicationContext()).asBitmap().load(getArguments().getString("image_url")).into(img_poke);
 
 
