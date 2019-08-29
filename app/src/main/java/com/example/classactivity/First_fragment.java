@@ -95,7 +95,7 @@ public class First_fragment extends Fragment {
             data.putString("description",pokemons.get(position).getDescription());
             data.putString("image_url",pokemons.get(position).getImage());
 
-            navController.navigate(R.id.pokemoneDesc,data);
+
 
 
         }
