@@ -3,7 +3,8 @@
 
     <group android:checkableBehavior="single">
         <item android:id="@+id/first"
-            android:title="Pokemon"></item>
+            android:title="Pokemon">
+        </item>
 
 
     </group>

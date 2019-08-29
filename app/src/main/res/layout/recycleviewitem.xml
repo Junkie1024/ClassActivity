@@ -22,20 +22,22 @@
                 android:id="@+id/imgv_poke"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
+
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="28dp" />
 
             <TextView
                 android:id="@+id/txt_pkname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="60dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginEnd="75dp"
-                android:layout_marginBottom="18dp"
-                android:text="Demo Poke"
-                android:textSize="25sp" />
+                android:layout_marginEnd="97dp"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp" />
+
+
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
