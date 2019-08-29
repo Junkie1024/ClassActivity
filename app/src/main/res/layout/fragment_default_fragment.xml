@@ -8,10 +8,16 @@
 
 
     <ImageView
-        android:id="@+id/default_img"
+        android:id="@+id/pokemon-ball"
         android:layout_width="200dp"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:src="@drawable/pokemonball"/>
 
-    </ImageView>
+    <ImageView
+        android:id="@+id/pokemon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pokmo"/>
+
 
 </RelativeLayout>
